@@ -1,18 +1,21 @@
-### Hakan Zeki Gülmez
+# Hakan Zeki Gülmez
 
-Economist based in Munich (M.Sc. Management & Technology, Economics & Econometrics, TUM). I work on causal inference, macroeconometrics and credit risk, and on how generative AI changes work at the level of tasks. My projects are built to be reproducible: fixed protocols, out-of-time evaluation, tests, and every reported number traceable to code.
+I am an economist based in Munich, with an M.Sc. in Management & Technology at TUM and a focus on economics and econometrics. I work with causal inference, macroeconomic data and text-based measurement.
 
-**Research and projects**
+My master's thesis, *Generative AI as a Task Shock*, studies the work B2B software products perform for customers. I built a Python/LLM pipeline to extract linked products, capabilities and tasks from annual reports, assessed those tasks against dated AI capability evidence, and examined firm revenue and disclosed product responses.
 
-| Project | Question | Methods |
-|---|---|---|
-| [credit-risk-sba](https://github.com/hakangulmez/credit-risk-sba) | How do credit-risk models calibrate across cohorts, and how are scenario losses shared between the SBA guarantee and lenders? | Firth logit, LightGBM, out-of-time calibration, macro stress scenarios |
-| [macro-var-lab](https://github.com/hakangulmez/macro-var-lab) | How sensitive are monetary-policy responses in the euro area and Türkiye to identification and estimator choice? | Recursive, sign-restricted and proxy SVARs, local projections |
-| [inflation-forecast-nowcast](https://github.com/hakangulmez/inflation-forecast-nowcast) | Do inflation models beat simple benchmarks once publication delays are respected? | BVAR, ensembles, Diebold–Mariano tests, MIDAS and factor nowcasts |
-| [causal-ml-lab](https://github.com/hakangulmez/causal-ml-lab) | When does double machine learning fix regularization bias, and what do its causal assumptions demand? | DML, Monte Carlo, staggered DiD, sensitivity analysis |
-| [lockdown-pm25-did](https://github.com/hakangulmez/lockdown-pm25-did) | Did COVID-19 lockdowns improve urban air quality in Italy and Japan? | Matching, difference-in-differences |
-| [job-application-agent](https://github.com/hakangulmez/job-application-agent) | Can an LLM workflow tailor job applications reliably? | Claude API, structured outputs, Streamlit |
+[Thesis summary](https://hakangulmez.github.io/thesis/) · [PCT dataset overview](https://hakangulmez.github.io/pct/) · Full thesis and replication materials available on request.
 
-**Master's thesis (TUM, 2026):** *Generative AI as a Task Shock: Product-Level LLM Substitution in B2B Software Markets.* Thesis and replication materials are available on request.
+## Selected work
 
-[Website](https://hakangulmez.github.io) · [LinkedIn](https://www.linkedin.com/in/hakan-zeki-g%C3%BClmez-088700180/) · hakanzekigulmez@gmail.com
+| Project | My work |
+|---|---|
+| [SBA credit risk](https://github.com/hakangulmez/credit-risk-sba) | Rebuilt the loan sample from official FOIA records, separated temporal validation from conditional macro scenarios, and examined calibration and guarantee loss allocation. |
+| [Monetary-policy transmission](https://github.com/hakangulmez/macro-var-lab) | Assembled euro-area and Türkiye series and compared identification methods and response estimators on fixed specifications. |
+| [Inflation forecasting](https://github.com/hakangulmez/inflation-forecast-nowcast) | Evaluated fixed models against simple benchmarks with publication-delay masks and examined pandemic sensitivity in GDP nowcasts. |
+| [Causal ML](https://github.com/hakangulmez/causal-ml-lab) | Built simulation comparisons and published-data applications to examine regularization, cross-fitting, overlap and causal assumptions. |
+| [Lockdowns and air quality](https://github.com/hakangulmez/lockdown-pm25-did) | Combined city-day data, matching and difference-in-differences for Italy and Japan. |
+
+I also built a small [application drafting tool](https://github.com/hakangulmez/job-application-agent) with Streamlit and the Claude API.
+
+[Portfolio](https://hakangulmez.github.io/) · [LinkedIn](https://www.linkedin.com/in/hakan-zeki-g%C3%BClmez-088700180/) · hakanzekigulmez@gmail.com
